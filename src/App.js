@@ -12,7 +12,8 @@ import Tools from './views/Tools.js';
 import Media from './views/Media.js';
 import Website from './views/Website.js';
 
-injectTapEventPlugin()
+injectTapEventPlugin();
+
 class App extends Component {
   render() {
     return (

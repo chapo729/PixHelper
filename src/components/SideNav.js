@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
-import SideBarItem from './components/SideBarItem.js';
+import SideBarItem from './SideBarItem';
 import { List } from 'material-ui/List';
 
 /*
