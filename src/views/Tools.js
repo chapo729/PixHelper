@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-
+import SwipeableTab from './ToolsTab.js';
 
 class Tools extends Component {
   render () {
     return (
-      <h1>Hello This is PixHelper Tools Page</h1>
+      <div>
+        <SwipeableTab />
+      </div>
+
     )
   }
 }
